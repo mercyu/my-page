@@ -1,13 +1,14 @@
-@media screen and (min-width: 320px){
+@media  screen and(min-width: 320px){
 body{font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url(https://src.img.photos/2019/04/04/Pdokc.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 100%;
-    
+    max-width: 100%;
+    margin:0 auto;
 }
-header{
+.header{
     display: flex;
     flex-direction: row;
     justify-content:flex-start;
@@ -30,7 +31,7 @@ h1{
 }
 main{display: flex;
     flex-direction: column;
-    margin:0 auto;
+   
     margin-top:20px; 
     padding:10px;
     font-size: 20px;
@@ -78,6 +79,7 @@ footer{
     
 main{
     max-width:960px;
+    margin:0 auto;
 }
 .header{
     max-width:960px;
@@ -92,6 +94,7 @@ main{
 
 .nav{
     display:flex;
+    flex-direction: row;
     justify-content: flex-start;
     max-width: 960px;
     font-size: 25px;
