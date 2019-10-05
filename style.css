@@ -17,8 +17,8 @@ header{
     width: 100%;
 }
 #logo{
-    width:150px;
-    height:150px;
+    width:90px;
+    height:90px;
     border:2px solid rgb(221, 245, 245);
     background-color: rgb(132, 111, 165);
     border-radius:50%;
@@ -78,8 +78,8 @@ footer{
 
 }
 @media screen and (min-width: 992px){
-
-main{clear: both;
+    
+main{
     max-width:960px;
 }
 .header{
@@ -88,8 +88,9 @@ main{clear: both;
 }
 
 #logo{
-    float:left;
-    
+    width:150px;
+    height:150px;
+   
 }
 
 .nav{
@@ -98,7 +99,6 @@ main{clear: both;
     max-width: 960px;
     font-size: 25px;
 }
-
 .nav p{
 padding-right:20px;
 padding-inline-start: 0px;
