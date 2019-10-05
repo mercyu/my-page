@@ -103,9 +103,11 @@ main{clear: both;
 padding-right:20px;
 padding-inline-start: 0px;
 }
-
-table{text-align: center;
-    border:2px solid black;
+#table{
+    order:0;
+}
+table{
+    order:0;
 }
 
 footer p{
