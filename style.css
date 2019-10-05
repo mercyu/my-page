@@ -43,9 +43,7 @@ main{display: flex;
     flex-direction: column;
     font-size: 25px;
 }
-ol, form, #forms, #links{
-    order:0;
-}
+
 a:visited{
     color:rgb(116, 43, 116);
 }
@@ -55,11 +53,22 @@ a:link{
 h2{
     margin: 30px auto 20px 0px;
 }
-#table{
+#links{
     order:1;
 }
+ol{order:2;
+}
+#forms{
+    order:3;
+}
+form{
+    order:4;
+}
+#table{
+    order:5;
+}
 table{
-    order:2;
+    order:6;
     text-align: center;
     border:2px solid black;
 }
@@ -79,7 +88,7 @@ footer{
 }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 922px){
     
 main{
     max-width:960px;
@@ -106,6 +115,9 @@ main{
 .nav p{
 padding-right:20px;
 padding-inline-start: 0px;
+}
+ol, form, #forms, #links{
+    order:0;
 }
 #table{
     order:0;
