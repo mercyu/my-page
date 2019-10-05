@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px){
+@media screen and (max-width: 900px){
 body{font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url(https://src.img.photos/2019/04/04/Pdokc.jpg);
     background-position: center;
@@ -8,9 +8,11 @@ body{font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header{
     display: flex;
+    flex-direction: row;
     justify-content:flex-start;
     background-color: rgb(187, 125, 189);
     height:160px;
+    width: 100%;
 }
 #logo{
     width:150px;
@@ -26,6 +28,7 @@ h1{
     font-size: 35px;
 }
 main{display: flex;
+    flex-direction: column;
     margin:0 auto;
     margin-top:20px; 
     padding:10px;
