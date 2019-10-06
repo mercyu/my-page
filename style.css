@@ -44,9 +44,11 @@ header{
 }
 .header{
     background-color: rgba(187, 125, 189, 0.8);
+    border-radius: 20px;
     height:160px;
     max-width:960px;
     margin:0 auto;
+    padding:0px;
 }
 #logo{
     float:left;
@@ -61,7 +63,7 @@ h1{
     background-color: rgb(146, 106, 170);
     padding:10px;
     font-size: 35px;
-    border-radius:10px;
+    border-radius:20px;
 }
 main{
     clear: both;
