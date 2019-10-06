@@ -1,4 +1,4 @@
-@media (max-device-width: 768px){
+@media (device-max-width: 768px){
 body{font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url(https://src.img.photos/2019/04/04/Pdokc.jpg);
     background-position: center;
@@ -89,7 +89,7 @@ footer{
 }
 }
 
-@media (device-min-width: 922px){
+
     
 main{
     max-width:960px;
@@ -129,5 +129,4 @@ table{
 
 footer p{
     padding: 30px;
-}
 }
