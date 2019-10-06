@@ -44,10 +44,6 @@ header{
     background-color: rgb(187, 125, 189);
 }
 .header{
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-start;
-
     height:160px;
     max-width:960px;
     margin:0 auto;
